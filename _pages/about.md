@@ -1,8 +1,10 @@
 ---
 permalink: /about/
-title: "About"
+title: "二ラボについて"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+ここは、私がたまたま習ったことを投稿としてメモするというサイトです。「これがいいね」とか「このことを覚えておいた方がいいよ」のような感想があった時、このサイトに入れます。現在サイバーセキュリティと日本語に興味がありますので、とりあえずその二つの話題について書くつもりです。もちろん、このサイトに投稿したことはあなたに役に立つなら嬉しいです。
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+もしご質問がある場合、ぜひ以下のメールアドレスにご連絡ください。フィードバックやコメントや更新の提案なども大歓迎です。よろしくお願いします！
+
+Email: nilabo-site [@] proton.me

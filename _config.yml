@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: 二ラボ
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  色々なサイバーセキュリティと日本語に関する記事や投稿などを書きます。
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+github_username: nilabo
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -29,9 +29,21 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+enable_copy_code_button: true
+locale: ja
+date_format: "%Y-%m-%d"
+breadcrumbs: true
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+words_per_minute: 50
+
 
 include:
   - _pages
@@ -58,34 +70,26 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Nilabo"
+  avatar : "/assets/images/bio-photo-nilabo.jpg"
+  bio    : "ただ好きなだけのことについて書きます（主にサイバーセキュリティと日本語）よろしくお願いします!"
+  
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    #- label: "問い合わせ：nilabo[at]proton.me"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://nilabo.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/nilabo"
+    - label: "メール"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "https://nilabo.github.io/about/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/nilabo"
 
 defaults:
   # _posts
@@ -94,11 +98,14 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      toc: true
+      toc_sticky: true
+      author_profile: false
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -107,9 +114,3 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
