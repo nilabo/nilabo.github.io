@@ -114,3 +114,7 @@ defaults:
       layout: single
       author_profile: true
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-CXZHTH4JJK"
